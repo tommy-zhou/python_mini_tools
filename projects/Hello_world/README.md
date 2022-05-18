@@ -1,10 +1,13 @@
-# hello_world
+# Hello_world
 学习一门新的编程语言都是从“hello word”开始!
 Learning a new programming language always starts with "hello word"!
 
 print("Hello python world!")
 
-##Python print() 函数
+运行脚本：python app.py
+
+
+## Python print() 函数
 - 语法 \
     print(*objects, sep=' ', end='\n', file=sys.stdout, flush=False)
 - 参数 \
@@ -14,7 +17,7 @@ print("Hello python world!")
     file -- 要写入的文件对象。
     flush -- 输出是否被缓存通常决定于 file，但如果 flush 关键字参数为 True，流会被强制刷新。
 
-##python的六个基本数据类型
+## python的六个基本数据类型
 - String（字符串）\
     字符串是 Python 中最常用的数据类型。我们可以使用引号( ' 或 " )来创建字符串。
     
@@ -38,7 +41,7 @@ print("Hello python world!")
     字典的每个键值 key=>value 对用冒号 : 分割，每个对之间用逗号(,)分割，整个字典包括在花括号 {} 中 ,格式如下所示：
     d = {key1 : value1, key2 : value2, key3 : value3 }
 
-###基本类型中可变与不可变：
+### 基本类型中可变与不可变：
 - 不可变数据（3 个）：\
     Number（数字）、String（字符串）、Tuple（元组）；
 - 可变数据（3 个）：\
